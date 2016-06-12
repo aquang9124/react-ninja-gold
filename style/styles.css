@@ -1,0 +1,78 @@
+html, body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#app {
+	padding: 10px;
+}
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+.gold-counter {
+	text-align: center;
+}
+
+.gold-counter span {
+	display: inline-block;
+	border: 3px solid black;
+	padding: 5px;
+	width: 100px;
+}
+
+.money-makers {
+	display: inline-block;
+	width: calc(25% - 30px);
+	height: 25vh;
+	margin: 0 10px;
+	border: 2px solid black;
+	text-align: center;
+}
+
+.money-makers button {
+	border-radius: 28px;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 3px solid #333;
+	background-color: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	color: white;
+}
+
+.money-makers button:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
+
+.activity-header {
+	width: calc(100% - 20px);
+	margin: 20px auto;
+}
+
+.activity-log {
+	width: calc(100% - 20px);
+	overflow: auto;
+	margin: 0 auto;
+	height: 300px;
+	border: 2px solid black;
+}
+
+.loss {
+	color: red;
+}
+
+.win {
+	color: green;
+}
